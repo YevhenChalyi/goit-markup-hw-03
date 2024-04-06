@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    width: 1440px;
+    color: #434455;
+    background-color: #FFFFFF;
    
 
 }
@@ -25,8 +25,15 @@ color: #4d5ae5;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu:hover, .menu:active{
+    color: #404bbf;
 }
 .contact{
+    font-style: normal;
+}
+.contacts{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -37,8 +44,6 @@ color: #4d5ae5;
   }
 .big-dark-zone {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 .main-title {
     font-weight: 700;
@@ -54,11 +59,10 @@ color: #4d5ae5;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor:pointer;
 }
-.main-button:hover {
+.main-button:hover, .main-button:focus {
     background-color: #404bbf;
 }
 .key {
@@ -81,15 +85,19 @@ color: #4d5ae5;
 }
 .team {
     background: #f4f4fd;
-    width: 1440px;
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team-member{
-
+    background-color: #FFFFFF;
 }
 .team-member-photo {
-    width: 264px;
-    height: 260px;
-}
+   }
 .team-member-name{
     font-weight: 500;
     font-size: 20px;
@@ -119,14 +127,13 @@ color: #4d5ae5;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .portfolio-service {
    
 }
 .portfolio-photo {
-    width: 360px;
-    height: 300px;
-}
+  }
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
