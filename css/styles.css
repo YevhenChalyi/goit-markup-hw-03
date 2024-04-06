@@ -27,7 +27,7 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.menu:hover, .menu:active, menu:focus {
+.menu:hover, .menu:active, .menu:focus {
     color: #404bbf;
 }
 .contact{
