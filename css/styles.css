@@ -1,0 +1,170 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    width: 1440px;
+   
+
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.logo-half-header {
+    color: #2e2f42;
+}
+.logo-half-footer {
+    color: #f4f4fd;
+}
+.menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+.contact{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact:hover, .contact:focus {
+    color: #404bbf;
+  }
+.big-dark-zone {
+    background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.main-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    cursor:pointer;
+}
+.main-button:hover {
+    background-color: #404bbf;
+}
+.key {
+
+}
+.key-unit {
+
+}
+.key-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    }
+.key-descr {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team {
+    background: #f4f4fd;
+    width: 1440px;
+}
+.team-member{
+
+}
+.team-member-photo{
+    width: 264px;
+    height: 260px;
+}
+.team-member-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.team-member-title{
+        font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.portfolio-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.portfolio-service {
+   
+}
+.portfolio-photo {
+    width: 360px;
+    height: 300px;
+}
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.portfolio-descr {
+      font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  footer {
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+  }
+  footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+  }
