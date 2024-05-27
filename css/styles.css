@@ -41,7 +41,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
-margin-right: 76px
+margin-right: 76px;
+padding: 24px 0;
 }
 .logo-half-header {
     color: #2e2f42;
@@ -230,6 +231,7 @@ margin-right: 76px
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-descr {
     font-size: 16px;
