@@ -87,6 +87,10 @@ padding: 24px 0;
 .contacts:hover, .contacts:focus {
     color: #404bbf;
   }
+  .visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
 .big-dark-zone {
     background: #2e2f42;
     padding: 188px 0;
