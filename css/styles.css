@@ -5,6 +5,22 @@ body {
    
 
 }
+.header-bar {
+    border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+    display:flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+
+}
+img {
+display: block;
+}
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -24,6 +40,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 display: flex;
+margin-right: 76px
 }
 .logo-half-header {
     color: #2e2f42;
@@ -38,6 +55,8 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
+    gap: 40px;
+    padding: 24px 0
 }
 .menu:hover, .menu:active, .menu:focus {
     color: #404bbf;
@@ -45,6 +64,8 @@ display: flex;
 .contact{
     font-style: normal;
     display: flex;
+    gap: 40px;
+
 }
 .contacts{
     font-size: 16px;
@@ -58,6 +79,7 @@ display: flex;
   }
 .big-dark-zone {
     background: #2e2f42;
+    padding: 188px 0;
 }
 .main-title {
     font-weight: 700;
@@ -66,6 +88,7 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 .main-button {
     font-weight: 500;
@@ -75,15 +98,24 @@ display: flex;
     color: #fff;
     background: #4d5ae5;
     cursor:pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .main-button:hover, .main-button:focus {
     background-color: #404bbf;
 }
 .key {
-
+    padding: 120px 0;
+}
+.key-list {
+    display: flex;
+    gap: 24px;
 }
 .key-unit {
-
+        width: calc((100% - 72px) / 4);
 }
 .key-title {
     font-weight: 500;
@@ -91,6 +123,7 @@ display: flex;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     }
 .key-descr {
     font-size: 16px;
@@ -100,8 +133,10 @@ display: flex;
 }
 .team {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .team-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -109,10 +144,21 @@ display: flex;
     color: #2e2f42;
     text-transform: capitalize;
 }
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 .team-member{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 .team-member-photo {
+   }
+   .team-member-info {
+    padding: 32px 0;
+
    }
 .team-member-name{
     font-weight: 500;
@@ -121,6 +167,8 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .team-member-title{
         font-size: 16px;
@@ -128,6 +176,7 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
 }
 .portfolio {
     font-weight: 700;
@@ -135,9 +184,11 @@ display: flex;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    padding: 120px 0 120px 0;
     
 }
 .portfolio-main-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -146,10 +197,23 @@ display: flex;
     color: #2e2f42;
     text-transform: capitalize;
 }
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    }
 .portfolio-service {
-   
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-photo {
+  }
+  .service-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+
   }
 .portfolio-name {
     font-weight: 500;
@@ -183,6 +247,8 @@ display: flex;
   }
   footer {
     background: #2e2f42;
+    padding: 100px 0;
+
   }
   footer p {
     font-weight: 400;
@@ -190,4 +256,7 @@ display: flex;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+  }
+  .logo-footer {
+    display: inline-block;
   }
